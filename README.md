@@ -104,37 +104,4 @@ nav a {
   padding: 60px 20px;
   text-align: center;
 }
-.gallery .images {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.gallery img {
-  border-radius: 10px;
-  max-width: 100%;
-  height: auto;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-}
-.about, .contact {
-  padding: 60px 20px;
-  text-align: center;
-}
-.contact .btn {
-  display: inline-block;
-  margin: 10px;
-  padding: 12px 20px;
-  background-color: black;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #eee;
-  margin-top: 20px;
-}
-function scrollToSection(id) {
-  document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-}
+.
